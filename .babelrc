@@ -1,0 +1,15 @@
+{
+  // 执行顺序 从下到上
+  "presets": [
+    // polli
+    [
+      "@babel/preset-env", 
+      {
+        "useBuiltIns": "usage",
+        "corejs": "3.33"
+      }
+    ],
+    // for ts code
+    "@babel/preset-typescript"
+  ]
+}
